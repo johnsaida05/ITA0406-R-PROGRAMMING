@@ -1,0 +1,8 @@
+m1 <- matrix(1:25, 5, 5, byrow=TRUE)
+print(m1)
+m2 <- matrix(1:9, 3, 3, byrow=FALSE)
+print(m2)
+m3 <- matrix(1:4, 2, 2, byrow=TRUE)
+rownames(m3) <- c("A", "B")
+colnames(m3) <- c("X", "Y")
+print(m3)
